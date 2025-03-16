@@ -1,0 +1,65 @@
+    @font-face{
+    font-family: vazir;
+    font-style: normal;
+    font-weight: 100;
+    src: url("../new font/Vazir-Thin.eot");
+  }
+  @font-face {
+    font-family: vazir;
+    font-style: normal;
+    font-weight: 100;
+    src: url("../new font/Vazir-Thin.woff") format(woff);  
+}
+  @font-face {
+    font-family: vazir;
+    font-style: normal;
+    font-weight: 100;
+    src: url("../new font/Vazir-Thin.woff2") format(woff2);
+  }
+  @font-face {
+    font-family: vazir;
+    font-style: normal;
+    font-weight: 100;
+    src: url("../new font/Vazir-Thin.ttf") format(ttf);
+  }
+
+.body h1{
+    text-align: center;
+    background: #333;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+    background-color: #000;
+    color: #f4f4f4;
+}
+
+.nav{
+    font-size: 20px;
+}
+
+a:hover{
+    color: green;
+}
+
+a:active{
+    color: red;
+}
+
+.picture{
+    border: #ff000f solid 15px;
+}
+
+.message{
+    font-size: 20px;
+    font-family: vazir;
+}
+
+.list{
+    font-family: vazir;
+    font-size: 20px;
+}
+
+.button{
+    margin-left: 600px;
+}
